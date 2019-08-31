@@ -14,16 +14,20 @@ h1, p {
     text-shadow: -1px 0 yellow, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
 }
 
-#insider {
-    border: 5px solid #4CAF50;
+/* Movies Container */
+.card {
+    background-color: #111010;
+    width: 470px;
+    margin: 50px 30px 0px 0px;
 }
 
-button {
+/* Custom button */
+#favBtn {
     background-color: #4CAF50;
     border: none;
-    border-radius: 8px;
+    border-radius: 50px;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -31,7 +35,30 @@ button {
     outline: 0;
   }
 
-button:hover {
+#favBtn:hover {
     cursor: pointer;
     background-color: rgb(14, 100, 17);
+}
+
+#delBtn {
+    background-color: #f00;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    outline: 0;
+  }
+
+#delBtn:hover {
+    cursor: pointer;
+    background-color: rgb(168, 10, 10);
+}
+
+/* Navbar Background */
+.bg-dark {
+    background-color: transparent !important;
 }
